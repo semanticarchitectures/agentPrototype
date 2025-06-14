@@ -1,0 +1,44 @@
+# Example URLs for different topics
+# Copy the URLs you want to use to urls.txt
+
+# AI and Machine Learning
+https://en.wikipedia.org/wiki/Artificial_intelligence
+https://en.wikipedia.org/wiki/Machine_learning
+https://en.wikipedia.org/wiki/Deep_learning
+https://en.wikipedia.org/wiki/Natural_language_processing
+
+# Programming and Development
+https://docs.python.org/3/tutorial/
+https://docs.python.org/3/library/
+https://langchain.readthedocs.io/en/latest/
+https://python-langchain.readthedocs.io/en/latest/getting_started/getting_started.html
+
+# Data Science
+https://en.wikipedia.org/wiki/Data_science
+https://en.wikipedia.org/wiki/Data_analysis
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/
+https://numpy.org/doc/stable/user/quickstart.html
+
+# Blockchain and Web3
+https://en.wikipedia.org/wiki/Blockchain
+https://en.wikipedia.org/wiki/Cryptocurrency
+https://ethereum.org/en/developers/docs/
+https://docs.soliditylang.org/en/latest/
+
+# Business and Technology
+https://en.wikipedia.org/wiki/Digital_transformation
+https://en.wikipedia.org/wiki/Business_intelligence
+https://en.wikipedia.org/wiki/Cloud_computing
+
+# Research Papers (if publicly accessible)
+# https://arxiv.org/abs/2005.14165  # GPT-3 paper
+# https://arxiv.org/abs/1706.03762  # Attention is All You Need
+
+# News and Articles
+# https://techcrunch.com/category/artificial-intelligence/
+# https://www.wired.com/tag/artificial-intelligence/
+
+# Documentation Sites
+# https://fastapi.tiangolo.com/
+# https://flask.palletsprojects.com/
+# https://django.readthedocs.io/

@@ -1,0 +1,6 @@
+What is task decomposition in the context of AI agents?
+How do large language models handle reasoning tasks?
+What are the key components of a RAG system?
+What are the limitations of current AI systems?
+How do AI agents use tools and external APIs?
+What is the difference between perception and planning in AI agents?

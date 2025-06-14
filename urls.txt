@@ -1,0 +1,9 @@
+# URLs to scrape and include in the RAG system
+# Lines starting with # are comments and will be ignored
+# Add one URL per line
+
+# Example URLs for testing:
+https://en.wikipedia.org/wiki/Artificial_intelligence
+https://en.wikipedia.org/wiki/Machine_learning
+
+# Add your URLs below:
