@@ -8,7 +8,7 @@ from pdf_rag_demo import PDFRAGDemo
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def process_prompts_from_file(demo, prompts_file="pdf_prompts.txt", output_file=None):
+def process_prompts_from_file(demo, prompts_file="prompts.txt", output_file=None):
     """Process prompts from a file and log results."""
     
     if not os.path.exists(prompts_file):

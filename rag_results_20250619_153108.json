@@ -1,0 +1,6 @@
+[
+  {
+    "question": "What is task decomposition in the context of AI agents?",
+    "answer": "Task decomposition in the context of AI agents refers to breaking down complex tasks into smaller, more manageable subtasks that can be executed by the agent. This approach allows AI agents to efficiently handle large and intricate tasks by dividing them into simpler components. Task decomposition is essential for AI agents to effectively perceive their environment, make decisions, and take actions autonomously to achieve specific goals. By decomposing tasks, AI agents can operate within the constraints of their programming, available computational resources, and hardware limitations. This process also enables AI agents to improve their performance over time through experience or training, as they can adapt to new situations and optimize their behavior for their designated tasks.",
+    "source_documents": [
+      
