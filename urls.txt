@@ -7,3 +7,30 @@ https://en.wikipedia.org/wiki/Artificial_intelligence
 https://en.wikipedia.org/wiki/Machine_learning
 
 # Add your URLs below:
+https://en.wikipedia.org/wiki/Semantic_architecture
+
+# Mission Engineering Guide
+https://ac.cto.mil/wp-content/uploads/2023/11/MEG_2_Oct2023.pdf
+
+# Air Force Doctrine
+https://www.doctrine.af.mil/Operational-Level-Doctrine/
+https://www.doctrine.af.mil/Portals/61/documents/AFDP_2-0/2-0-AFDP-INTELLIGENCE.pdf
+https://www.doctrine.af.mil/Portals/61/documents/AFDP_3-0/AFDP3-0Operations.pdf
+https://www.doctrine.af.mil/Portals/61/documents/AFDP_3-0_1/AFDP3-0.1CommandandControl.pdf
+https://www.doctrine.af.mil/Portals/61/documents/AFDN_1-21/AFDN%201-21%20ACE.pdf
+https://www.doctrine.af.mil/Portals/61/documents/AFDP_3-85/AFDP%203-85%20Electromagnetic%20Spectrum%20Ops.pdf
+https://www.doctrine.af.mil/Portals/61/documents/AFDP_5-0/AFDP5-0Planning.pdf
+
+# Opinions about improving Air Force operations
+https://media.defense.gov/2017/Jun/19/2001765010/-1/-1/0/AP_2014-1_BROWN_STRATEGY_INTELLIGENCE_SURVEILLANCE_RECCONNAISSANCE.PDF
+
+# Autonomous Organizations and the Law
+https://en.wikipedia.org/wiki/Shawn_Bayern
+https://law.stanford.edu/wp-content/uploads/2017/11/19-1-4-bayern-final_0.pdf
+https://ir.law.fsu.edu/cgi/viewcontent.cgi?article=1787&context=articles
+
+#Black River Innovation Center
+https://www.blackriverinnovationcenter.org/
+
+# Stella Fane Amateur Telescope Makers of Springfield
+https://www.stellafane.org/

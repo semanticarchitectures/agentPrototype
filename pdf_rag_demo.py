@@ -159,22 +159,47 @@ class PDFRAGDemo:
         splits = text_splitter.split_documents(documents)
         logger.info(f"Created {len(splits)} document chunks")
         
-        # Create vector store
+        # Create vector store with batch processing to handle large datasets
         logger.info("Creating vector embeddings...")
         start_time = time.time()
-        
+
         try:
-            self.vector_store = FAISS.from_documents(splits, self.embeddings)
-            
+            # Process in batches to avoid token limits
+            batch_size = 100  # Process 100 documents at a time
+            total_batches = (len(splits) + batch_size - 1) // batch_size
+
+            logger.info(f"Processing {len(splits)} documents in {total_batches} batches of {batch_size}")
+
+            # Create initial vector store with first batch
+            first_batch = splits[:batch_size]
+            self.vector_store = FAISS.from_documents(first_batch, self.embeddings)
+            logger.info(f"Created initial vector store with batch 1/{total_batches}")
+
+            # Add remaining batches
+            for i in range(1, total_batches):
+                start_idx = i * batch_size
+                end_idx = min((i + 1) * batch_size, len(splits))
+                batch = splits[start_idx:end_idx]
+
+                logger.info(f"Processing batch {i+1}/{total_batches} ({len(batch)} documents)")
+
+                # Create temporary vector store for this batch
+                temp_store = FAISS.from_documents(batch, self.embeddings)
+
+                # Merge with main vector store
+                self.vector_store.merge_from(temp_store)
+
+                logger.info(f"Merged batch {i+1}/{total_batches}")
+
             if save_to_disk:
                 logger.info(f"Saving vector database to {self.vector_db_path}")
                 self.vector_store.save_local(self.vector_db_path)
-            
+
             end_time = time.time()
             logger.info(f"Vector database created in {end_time - start_time:.2f} seconds")
-            
+
             return self.vector_store
-            
+
         except Exception as e:
             logger.error(f"Error creating vector database: {e}")
             return None
